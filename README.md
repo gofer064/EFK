@@ -1,2 +1,2 @@
 # kubernetes-efk
-EFK Kubernetes manifests
+EFK Kubernetes mhelm app
