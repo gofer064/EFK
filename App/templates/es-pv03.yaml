@@ -6,9 +6,10 @@ metadata:
     app: elasticsearch
 spec:
   capacity:
-    storage: 4Gi
+    storage: 2Gi
+    storageClassName: local-storage
     accessModes:
     - ReadWriteOnce
   storageClassName: local-storage
   hostPath:
-    path: /data/pv0003/
+    path: /home/pv0003/
