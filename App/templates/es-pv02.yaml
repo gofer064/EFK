@@ -6,7 +6,7 @@ metadata:
     app: elasticsearch
 spec:
   capacity:
-    storage: 2Gi
+    storage: 4Gi
   accessModes:
     - ReadWriteOnce
   storageClassName: local-storage
