@@ -7,8 +7,8 @@ metadata:
 spec:
   capacity:
     storage: 2Gi
-    accessModes:
+  accessModes:
     - ReadWriteOnce
   storageClassName: local-storage
   hostPath:
-    path: "/home/pv0001/"
+    path: /tmp/es-pv01
