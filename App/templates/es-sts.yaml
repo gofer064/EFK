@@ -4,7 +4,7 @@ metadata:
   name: es-cluster
 spec:
   serviceName: elasticsearch
-  replicas: 1
+  replicas: 2
   selector:
     matchLabels:
       app: elasticsearch
@@ -18,7 +18,7 @@ spec:
         image: elasticsearch:8.8.1
         resources:
             limits:
-              cpu: 500m
+              cpu: 300m
             requests:
               cpu: 100m
         ports:
